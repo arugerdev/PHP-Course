@@ -24,8 +24,8 @@ curl_close($ch);
 ?>
 
 <?php
-$num = 2;
-$lecName = "segunda";
+$num = 1;
+$lecName = "primera";
 render_template('head', ['num' => $num]);
 render_template('main', ['lecName' => $lecName]);
 render_template('styles');
